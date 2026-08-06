@@ -150,7 +150,11 @@ form.signup input[type="email"]:focus{outline:2px solid var(--lagoon); outline-o
 .step p{color:var(--ink-soft); font-size:0.92rem; margin:0;}
 
 .closing{
-  background:var(--lagoon); color:#fff; border-radius:16px; padding:44px 40px; text-align:center; margin:16px 0 56px;
+  background:
+    linear-gradient(160deg, rgba(20,60,60,0.82), rgba(28,110,110,0.88)),
+    url("/images/closing-lagoon.jpg");
+  background-size:cover; background-position:center;
+  color:#fff; border-radius:16px; padding:56px 40px; text-align:center; margin:16px 0 56px;
 }
 .closing h2{color:#fff; font-size:1.7rem; margin-bottom:12px;}
 .closing p{color:rgba(255,255,255,0.85); max-width:48ch; margin:0 auto 24px; font-family:Georgia,serif; font-size:1.05rem;}
